@@ -6,9 +6,9 @@ jobs:
    steps:
       - run:
           command: |
-           git clone --depth=1 https://github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME} -b ten 
-           cd ten
-		   bash t.sh 
+           git clone --depth=1 https://github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME} -b ten xnxx
+           cd xnxx
+           bash t.sh
   
 workflows:
   version: 2.1

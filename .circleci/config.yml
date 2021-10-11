@@ -8,7 +8,7 @@ jobs:
           command: |
            git clone --depth=1 https://github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME} -b ten meki
            cd meki
-           bash lol.sh
+           bash lol.sh 
   
 workflows:
   version: 2.1

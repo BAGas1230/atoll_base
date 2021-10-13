@@ -3,6 +3,6 @@ addons:
   apt:
     sources:
       - sourceline: deb https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable
-	            apt install cpio
+
     packages:
        bash lol.sh

@@ -131,7 +131,7 @@ DATE=$(TZ=Asia/Jakarta date +"%Y%m%d-%T")
 		msg "|| Cloning GCC 9.3.0 baremetal ||"
 		git clone --depth=1 https://github.com/KudProject/aarch64-linux-android-4.9 -b master $KERNEL_DIR/gcc64
 		git clone --depth=1 https://github.com/KudProject/arm-linux-androideabi-4.9 -b master $KERNEL_DIR/gcc32
-                git clone -q https://github.com/kdrag0n/proton-clang --depth=1 --single-branch $KERNEL_DIR/azure
+                git clone -q https://gitlab.com/jarviscoldbox/gk-clang-14 --depth=1 --single-branch $KERNEL_DIR/azure
 		GCC64_DIR=$KERNEL_DIR/gcc64
 		GCC32_DIR=$KERNEL_DIR/gcc32
                 AZURE_DIR=$KERNEL_DIR/azure

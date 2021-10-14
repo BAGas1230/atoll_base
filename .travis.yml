@@ -1,10 +1,8 @@
 language: ruby
-os: osx
-osx_image: xcode12.5	
+os: ubuntu
+dist:focal
 services:
   - docker
-
-script: bash p.sh 
+script: bash lol.sh 
 jobs:
   fast_finish: true
-

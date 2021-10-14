@@ -1,0 +1,7 @@
+language: ruby
+
+dist: focal 
+services:
+  - docker
+
+script: bash p.sh 

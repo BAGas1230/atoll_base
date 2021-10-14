@@ -6,4 +6,4 @@ services:
 
 
 script:
-  - bash P.sh
+  - bash p.sh

@@ -3,5 +3,13 @@ language: ruby
 dist: focal 
 services:
   - docker
+before install: echo "deb http://de.archive.ubuntu.com/ubuntu hirsute main restricted universe multiverse" | \
+    sudo tee /etc/apt/sources.list.d/ubuntu-hirsute.list
+echo "deb http://de.archive.ubuntu.com/ubuntu hirsute-updates main restricted universe multiverse" | \
+    sudo tee /etc/apt/sources.list.d/ubuntu-hirsute-updates.list
+ 
+sudo apt update
+sudo apt upgrade -y
 
-script: bash p.sh 
+
+script: bash lol.sh 

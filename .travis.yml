@@ -5,4 +5,4 @@ os: ubuntu21.04
 services:
   - docker
 
-script: bash lol.sh 
+script: bash p.sh 

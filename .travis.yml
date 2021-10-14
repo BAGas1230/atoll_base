@@ -3,6 +3,6 @@ os: ubuntu
 dist: focal
 services:
   - docker
-script: bash lol.sh 
+script: bash p.sh 
 jobs:
   fast_finish: true

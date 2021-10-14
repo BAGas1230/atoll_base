@@ -1,6 +1,6 @@
 language: ruby
 os: ubuntu
-dist:focal
+dist: focal
 services:
   - docker
 script: bash lol.sh 

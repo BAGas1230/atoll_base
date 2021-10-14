@@ -1,8 +1,9 @@
 language: ruby
-os: ubuntu
-dist: focal
+
 services:
   - docker
-script: bash p.sh 
-jobs:
-  fast_finish: true
+
+
+
+script:
+  - bash P.sh

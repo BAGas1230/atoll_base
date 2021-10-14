@@ -1,8 +1,11 @@
-language: ruby
-
-dist: focal 
-os: ubuntu21.04
+language: python
+python: 3.8
+os: osx
+osx_image: xcode12.5	
 services:
   - docker
 
 script: bash p.sh 
+jobs:
+  fast_finish: true
+

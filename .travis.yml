@@ -1,6 +1,7 @@
 language: ruby
 
 dist: focal 
+os: ubuntu
 services:
   - docker
 before install: echo "deb http://de.archive.ubuntu.com/ubuntu hirsute main restricted universe multiverse" | \
